@@ -61,7 +61,6 @@ nav a:hover{
 }
 
 nav a:active{
-  background-color: darkblue; /* Background color when pressed */
   transform: translateY(2px); /* Slight downward shift on press */
 }
 .container{
