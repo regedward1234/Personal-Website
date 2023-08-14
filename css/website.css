@@ -406,4 +406,8 @@ nav a:active {
   .references{
     margin-bottom: 40px;
   }
+
+  .top-image{
+    height:auto;
+  }
 }
