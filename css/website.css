@@ -306,16 +306,16 @@ nav a {
   .container1,
   .container2,
   .container3 {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .top-section-content {
-    padding: 1rem;
+    padding: 1.5rem;
   }
   
   .references {
     max-width: none; /* Allow navigation to take full width on mobile */
-    padding: 1rem; /* Add padding to navigation for better spacing */
+    padding: 1.5rem; /* Add padding to navigation for better spacing */
   }
   
   .basic-info {
@@ -324,16 +324,25 @@ nav a {
   }
 
   .info-row {
+    display: flex;
+    flex-direction: column; /* Display items in a column layout */
+    align-items: flex-start; /* Align items to the left */
     margin-bottom: 5px; /* Reduce spacing between rows */
   }
+
   .info-row h4 {
     width: auto; /* Reset width for labels on mobile */
-    margin-right: 5px; /* Add a little space between label and value */
+    margin-right: 0; /* Remove right margin for labels */
+   
+  }
+
+  .info-row p {
+    margin: 0; /* Reset margin for value */
   }
 
   .left-side,
   .right-side {
-    padding: 1rem; /* Add padding to sections for mobile */
+    padding: 1.5rem; /* Add padding to sections for mobile */
   }
 
   /* Example: Adjust font sizes for mobile screens */
