@@ -347,7 +347,7 @@ nav a:active {
   }
 
   .references {
-    width: 95%
+    width: 95%;
     max-width: 95%; /* Allow navigation to take full width on mobile */
   }
 
