@@ -35,19 +35,27 @@ header {
 
 nav ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 nav li {
-  display: inline;
-  margin-right: 1rem;
+  
+  margin: 0 1rem;
 }
 
 nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  transition: color 0.3s ease-in-out;
 }
 
+nav a:hover{
+  color: blue; /* Change color on hover */
+}
 .container{
   padding: 100px; /* 100px top padding, 0 right padding, 0 bottom padding, 0 left padding */
 }
@@ -307,7 +315,7 @@ nav a {
 /* Media Query for Mobile */
 @media (max-width: 767px) {
   /* Adjust styles for mobile screens here */
-  .container,
+
   .container1,
   .container2,
   .container3 {
