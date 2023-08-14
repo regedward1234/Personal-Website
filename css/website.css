@@ -109,8 +109,9 @@ nav a {
 }
 
 .info-row h4 {
-  width: 100%; /* Adjust the width to create consistent spacing */
-  margin-right: 5px;
+  margin: 5;
+  width: 250px; /* Adjust the width to create consistent spacing */
+  
 }
 
 .info-row p {
@@ -306,16 +307,16 @@ nav a {
   .container1,
   .container2,
   .container3 {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
   .top-section-content {
-    padding: 1.5rem;
+    padding: 1rem;
   }
   
   .references {
     max-width: none; /* Allow navigation to take full width on mobile */
-    padding: 1.5rem; /* Add padding to navigation for better spacing */
+    padding: 1rem; /* Add padding to navigation for better spacing */
   }
   
   .basic-info {
@@ -331,8 +332,8 @@ nav a {
   }
 
   .info-row h4 {
-    width: auto; /* Reset width for labels on mobile */
-    margin-right: 0; /* Remove right margin for labels */
+    margin: 5;
+    width: 100%;
    
   }
 
@@ -342,7 +343,7 @@ nav a {
 
   .left-side,
   .right-side {
-    padding: 1.5rem; /* Add padding to sections for mobile */
+    padding: 1rem; /* Add padding to sections for mobile */
   }
 
   /* Example: Adjust font sizes for mobile screens */
