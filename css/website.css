@@ -42,7 +42,6 @@ nav ul {
 }
 
 nav li {
-  
   margin: 0 1rem;
 }
 
@@ -50,24 +49,22 @@ nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  padding: 10px 20px; 
-  border-radius: 8px; 
+  padding: 10px 20px;
+  border-radius: 8px;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-nav a:hover{
+nav a:hover {
   color: white;
   background-color: blue; /* Background color on hover */
 }
 
-nav a:active{
+nav a:active {
   transform: translateY(2px); /* Slight downward shift on press */
 }
-.container{
+.container {
   padding: 100px; /* 100px top padding, 0 right padding, 0 bottom padding, 0 left padding */
 }
-
-
 
 /* Top section styling */
 .top-section {
@@ -131,7 +128,6 @@ nav a:active{
 .info-row h4 {
   margin: 5;
   width: 250px; /* Adjust the width to create consistent spacing */
-  
 }
 
 .info-row p {
@@ -326,8 +322,6 @@ nav a:active{
   background-color: #0056b3;
 }
 
-
-
 /* Media Query for Mobile */
 @media (max-width: 767px) {
   /* Adjust styles for mobile screens here */
@@ -337,7 +331,7 @@ nav a:active{
   .container3 {
     padding: 1rem;
     max-width: 100%;
-    max-width: 767px; 
+    max-width: 767px;
   }
 
   .top-section-content {
@@ -351,20 +345,20 @@ nav a:active{
     margin: 0 auto;
     line-height: 1.5;
   }
-  
+
   .references {
-    max-width: none; /* Allow navigation to take full width on mobile */
-    
+    width: 95%
+    max-width: 95%; /* Allow navigation to take full width on mobile */
   }
-  
+
   .basic-info {
     flex-direction: column;
     align-items: flex-start; /* Align items to the left */
   }
   .left-section,
-.right-section {
-  padding: 1rem;
-}
+  .right-section {
+    padding: 1rem;
+  }
 
   .info-row {
     display: flex;
@@ -374,9 +368,7 @@ nav a:active{
   }
 
   .info-row h4 {
- 
     width: 100%;
-   
   }
 
   .info-row p {
@@ -389,7 +381,6 @@ nav a:active{
     padding: 1rem; /* Add padding to sections for mobile */
   }
 
- 
   h1 {
     font-size: 1.5rem;
   }
@@ -403,10 +394,10 @@ nav a:active{
   }
 
   .image {
-    width: 80%; 
+    width: 80%;
     max-height: auto; /* Maintain aspect ratio */
   }
-  
+
   nav a:active {
     background-color: lightskyblue; /* Reset background color on press */
     transform: translateY(2px);
