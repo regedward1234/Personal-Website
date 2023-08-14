@@ -30,7 +30,7 @@ header {
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
   height: 100vh; /* Full viewport height */
-  width: 95%;
+  width: 100%;
 }
 
 nav ul {
@@ -49,16 +49,16 @@ nav a {
 }
 
 .container{
-  padding: 80px;
+  padding: 40px;
 }
 
 
 
 /* Top section styling */
 .top-section {
-  width: 95%;
+  width: 100%;
   max-width: 1024px; /* Adjust as needed */
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
