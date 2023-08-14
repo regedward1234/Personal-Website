@@ -313,5 +313,80 @@ nav a {
     margin-right: auto; 
   }
 
+  .top-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
   
+  .references {
+    max-width: none; /* Allow navigation to take full width on mobile */
+    padding: 1rem; /* Add padding to navigation for better spacing */
+  }
+  
+  .basic-info {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+  }
+  .left-section,
+.right-section {
+  padding: 1rem;
+}
+
+  .info-row {
+    display: flex;
+    flex-direction: column; /* Display items in a column layout */
+    align-items: flex-start; /* Align items to the left */
+    margin-bottom: 5px; /* Reduce spacing between rows */
+  }
+
+  .info-row h4 {
+ 
+    width: 100%;
+   
+  }
+
+  .info-row p {
+    margin: 0; /* Reset margin for value */
+    word-wrap: break-word;
+  }
+
+  .left-side,
+  .right-side {
+    padding: 1rem; /* Add padding to sections for mobile */
+  }
+
+  /* Example: Adjust font sizes for mobile screens */
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .image {
+    width: 100%; /* Set the image width to 100% */
+    max-height: auto; /* Maintain aspect ratio */
+  }
+
+  .container1,
+  .container2,
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
 }
