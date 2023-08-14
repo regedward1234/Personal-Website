@@ -331,9 +331,6 @@ nav a:active{
     max-width: 767px; 
   }
 
-  .container {
-    padding: 100px;
-  }
   .top-section-content {
     display: flex;
     flex-direction: column;
