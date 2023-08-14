@@ -50,11 +50,19 @@ nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  transition: color 0.3s ease-in-out;
+  padding: 10px 20px; 
+  border-radius: 8px; 
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 nav a:hover{
-  color: blue; /* Change color on hover */
+  color: white;
+  background-color: blue; /* Background color on hover */
+}
+
+nav a:active{
+  background-color: darkblue; /* Background color when pressed */
+  transform: translateY(2px); /* Slight downward shift on press */
 }
 .container{
   padding: 100px; /* 100px top padding, 0 right padding, 0 bottom padding, 0 left padding */
@@ -315,7 +323,7 @@ nav a:hover{
 /* Media Query for Mobile */
 @media (max-width: 767px) {
   /* Adjust styles for mobile screens here */
-
+  .container,
   .container1,
   .container2,
   .container3 {
