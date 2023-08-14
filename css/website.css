@@ -325,7 +325,7 @@ nav a:active {
 /* Media Query for Mobile */
 @media (max-width: 767px) {
   /* Adjust styles for mobile screens here */
-  .container,
+  
   .container1,
   .container2,
   .container3 {
@@ -401,5 +401,9 @@ nav a:active {
   nav a:active {
     background-color: lightskyblue; /* Reset background color on press */
     transform: translateY(2px);
+  }
+  
+  .references{
+    margin-bottom: 40px;
   }
 }
