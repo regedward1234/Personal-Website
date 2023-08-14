@@ -404,10 +404,10 @@ nav a:active {
   }
   
   .references{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .top-image{
-    height:auto;
+    height:75%;
   }
 }
