@@ -402,8 +402,4 @@ nav a:active {
     background-color: lightskyblue; /* Reset background color on press */
     transform: translateY(2px);
   }
-
-  header {
-    width: 90%;
-  }
 }
