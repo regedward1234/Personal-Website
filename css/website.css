@@ -49,7 +49,7 @@ nav a {
 }
 
 .container{
-  padding: 40px;
+  padding: 100px; /* 100px top padding, 0 right padding, 0 bottom padding, 0 left padding */
 }
 
 
@@ -208,8 +208,7 @@ nav a {
 
 .references {
   background-color: paleturquoise;
-  padding: 2rem;
-  margin-top: auto;
+  padding: 2rem 0; /* Adjust padding to add space only at the bottom */
   width: 100%;
   max-width: 400px;
   max-width: 100%;
