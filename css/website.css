@@ -110,6 +110,7 @@ nav a {
 
 .info-row h4 {
   width: 100%; /* Adjust the width to create consistent spacing */
+  margin-right: 5px;
 }
 
 .info-row p {
@@ -316,9 +317,18 @@ nav a {
     max-width: none; /* Allow navigation to take full width on mobile */
     padding: 1rem; /* Add padding to navigation for better spacing */
   }
+  
+  .basic-info {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+  }
 
+  .info-row {
+    margin-bottom: 5px; /* Reduce spacing between rows */
+  }
   .info-row h4 {
     width: auto; /* Reset width for labels on mobile */
+    margin-right: 5px; /* Add a little space between label and value */
   }
 
   .left-side,
