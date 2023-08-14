@@ -326,8 +326,7 @@ nav a {
   }
   .left-section,
 .right-section {
-  flex: 1;
-text-align: left;
+  padding: 1rem;
 }
 
   .info-row {
