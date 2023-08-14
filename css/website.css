@@ -63,7 +63,6 @@ nav a:active {
   transform: translateY(2px); /* Slight downward shift on press */
 }
 
-
 /* Top section styling */
 .top-section {
   width: 100%;
@@ -76,7 +75,6 @@ nav a:active {
   width: 95%;
   max-width: 95%;
   height: auto;
- 
 }
 
 .top-section-content {
@@ -325,7 +323,7 @@ nav a:active {
 /* Media Query for Mobile */
 @media (max-width: 767px) {
   /* Adjust styles for mobile screens here */
-  
+
   .container1,
   .container2,
   .container3 {
@@ -355,6 +353,7 @@ nav a:active {
     flex-direction: column;
     align-items: flex-start; /* Align items to the left */
   }
+
   .left-section,
   .right-section {
     padding: 1rem;
@@ -402,12 +401,12 @@ nav a:active {
     background-color: lightskyblue; /* Reset background color on press */
     transform: translateY(2px);
   }
-  
-  .references{
-    margin-bottom: 20px;
+
+  .references {
+    margin-bottom: 10px;
   }
 
-  .top-image{
-    height:75%;
+  .top-image {
+    height: 55%;
   }
 }
