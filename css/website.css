@@ -354,7 +354,7 @@ nav a:active{
   
   .references {
     max-width: none; /* Allow navigation to take full width on mobile */
-    padding: 1rem; /* Add padding to navigation for better spacing */
+    
   }
   
   .basic-info {
@@ -389,7 +389,7 @@ nav a:active{
     padding: 1rem; /* Add padding to sections for mobile */
   }
 
-  /* Example: Adjust font sizes for mobile screens */
+ 
   h1 {
     font-size: 1.5rem;
   }
@@ -403,7 +403,7 @@ nav a:active{
   }
 
   .image {
-    width: 80%; /* Set the image width to 100% */
+    width: 80%; 
     max-height: auto; /* Maintain aspect ratio */
   }
   
