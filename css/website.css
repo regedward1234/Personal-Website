@@ -358,4 +358,9 @@ nav a {
   h3 {
     font-size: 1rem;
   }
+  
+  body {
+    /* ... (other body styles) ... */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
 }
