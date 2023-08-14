@@ -62,9 +62,7 @@ nav a:hover {
 nav a:active {
   transform: translateY(2px); /* Slight downward shift on press */
 }
-.container {
-  padding: 100px; /* 100px top padding, 0 right padding, 0 bottom padding, 0 left padding */
-}
+
 
 /* Top section styling */
 .top-section {
@@ -78,6 +76,7 @@ nav a:active {
   width: 95%;
   max-width: 95%;
   height: auto;
+ 
 }
 
 .top-section-content {
@@ -232,6 +231,7 @@ nav a:active {
   text-align: center;
   margin: 0 auto; /* Center horizontally */
   line-height: 1.5;
+  margin-bottom: 60px;
 }
 
 .download-button {
