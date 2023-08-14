@@ -309,8 +309,7 @@ nav a {
   .container3 {
     padding: 1rem;
     max-width: 100%;
-    margin-left: auto;  /* Maintain consistent left margin */
-    margin-right: auto; 
+    max-width: 767px; 
   }
 
   .top-section-content {
