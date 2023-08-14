@@ -347,8 +347,8 @@ nav a:active {
   }
 
   .references {
-    width: 95%;
-    max-width: 95%; /* Allow navigation to take full width on mobile */
+    width: 90%;
+    max-width: 90%; /* Allow navigation to take full width on mobile */
   }
 
   .basic-info {
