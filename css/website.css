@@ -309,10 +309,12 @@ nav a {
   .container3 {
     padding: 1rem;
     max-width: 100%;
+    margin-left: auto;  /* Maintain consistent left margin */
+    margin-right: auto; 
   }
 
   .top-section-content {
-    width: 100%;
+    padding: 1rem;
   }
   
   .references {
@@ -344,6 +346,7 @@ nav a {
 
   .info-row p {
     margin: 0; /* Reset margin for value */
+    word-wrap: break-word;
   }
 
   .left-side,
