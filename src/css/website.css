@@ -1,0 +1,316 @@
+html {
+  scroll-behavior: smooth;
+  background-color: darkblue;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.container{
+  padding: 40px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+/* Top section styling */
+.top-section {
+  width: 100%;
+  max-width: 1024px; /* Adjust as needed */
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.top-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-color: lightskyblue;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto; /* Center horizontally */
+  line-height: 1.5;
+}
+
+.container1 {
+  width: 95%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: lightblue;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  padding: 2rem;
+  text-align: left;
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-row h4 {
+  margin: 5;
+  width: 250px; /* Adjust the width to create consistent spacing */
+}
+
+.info-row p {
+  margin: 0;
+}
+
+.container2 {
+  width: 95%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: pink;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+.education-card {
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  padding: 0;
+  margin: 1rem 0;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+
+  position: relative;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.left-side {
+  flex: 0.75;
+  padding: 1rem;
+  background-color: blue;
+}
+
+.right-side {
+  flex: 2.25;
+  background-color: #f5f5f5;
+  padding: 1rem;
+}
+
+.left-side h2 {
+  color: white;
+  margin: 0;
+}
+
+.left-side p {
+  color: white;
+  margin: 0;
+}
+
+.certification-card {
+  background-color: lightgoldenrodyellow;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-color: red;
+}
+
+.certification-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certification-card h2 {
+  color: #3498db;
+}
+
+.certification-card p {
+  color: #555;
+}
+.container3 {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: lightcyan;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+.references {
+  background-color: paleturquoise;
+  padding: 2rem;
+  margin-top: auto;
+  width: 100%;
+  max-width: 400px;
+  max-width: 100%;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.download-button:hover {
+  background-color: blue; /* Button background color on hover */
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: blue; /* Button background color on hover */
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for form labels */
+#contact-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Style for form inputs */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="number"],
+#contact-form input[type="tel"],
+#contact-form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style for radio button labels */
+#contact-form label input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Style for the hourly rate input when revealed */
+#hourly-rate-input {
+  display: none;
+}
+
+/* Style for the submit button */
+#contact-form button[type="submit"] {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+#contact-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+  /* Add specific styles for desktop screens here */
+}
+
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+  /* Adjust styles for mobile screens here */
+  .container1{
+    padding: 1rem;
+  }
+  .container2{
+    padding: 1rem;
+  }
+  .container3{
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- My name-->
+    <meta name="author" content="Reginald Edward" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reginald Edward Personal Website</title>
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="./css/website.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./js/script.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <div class="container">
+      <img src="./files/profilepic.jpg" alt="Profile Image" />
+
+      <section id="top-section" class="top-section">
+        <div class="top-section-content">
+          <h1>Reginald Edward</h1>
+          <h3>Cyber Security Analyst</h3>
+          <p>
+            <a href="./files/Reginald Edward Resume.pdf" download
+              ><button class="download-button"><i class="fa fa-download"></i> Resume</button></a
+            >
+            <a href="#contact"
+              ><button class="contact-button"><i class="envelope"></i> Contact Me</button></a
+            >
+          </p>
+        </div>
+    </div>
+      </section>
+
+      <section id="references" class="references">
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <section id="about" class="container1">
+      <!-- Your About Me content here -->
+      <div class="left-section">
+        <h1>About Me and Academic Honesty</h1>
+
+        <p>
+          My name is Reginald Edward and I aspire to be a Cyber Security Analyst. I began my
+          professional journey as a teller to a Financial Advisor at TD. Shortly after being a
+          Financial Advisor, a role that captivated my interest was Cyber Security Analyst. I
+          realized after much research that protecting companies and individuals from cyber threats
+          is something I am passionate about. I am currently pursuing my degree in Computer
+          Programming and Analysis and I hope to use this degree to get into the Cyber Security and
+          Threat Management Course that Seneca provides. I am also looking forward to getting other
+          certifications that can help me land a job in cyber security which include CompTIA
+          Security+ and CompTIA CCNA. My end goal is to end up in the field of Cyber Security.
+        </p>
+        <br />
+
+        <b>Honesty Statement:</b><br />
+        <p>
+          I declare that my assessment is wholly my own work in accordance with Seneca Academic
+          Policy. No part of this assessment has been copied manually or electronically from any
+          other source(including web sites) except for the information supplied by the WEB222
+          instructors and / or made available in this assessment for my use. I also declare that no
+          part of this assignment has been distributed to other students. <br /><br />
+        </p>
+        
+        <b>Date: </b>August 12, 2023
+        
+      </div>
+      <div class="right-section">
+        <h1>Basic Information</h1>
+        <div class="basic-info">
+        <div class="info-row">
+        <h4>AGE:</h4>
+        <p>26</p>
+        </div>
+        <div class="info-row">
+        <h4>EMAIL:</h4>
+        <p>redward7@myseneca.ca</p>
+        </div>
+        <div class="info-row">
+        <h4>LANGUAGE:</h4>
+        <p>English</p>
+        </div>
+        <div class="info-row">
+        <h4>CLASS SECTION:</h4>
+        <p>WEB222 NAA</p>
+        </div>
+        <div class="info-row">
+        <h4>STUDENT ID:</h4>
+        <p>149047227</p>
+        </div>
+        <div class="info-row">
+        <h4>INSTRUCTOR:</h4>
+        <p>Mark Meritt</p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="education" class="container2">
+      <!-- Your Education content here -->
+      <h1>Education</h1>
+      <div class="education-card">
+      <div class="left-side">
+        <h2>Advanced Diploma</h2>
+        <p>2023-</p>
+      </div>
+
+    
+        <div class="right-side">
+        <h2>Computer Programming and Analysis</h2>
+        <p>Seneca College</p>
+        <p>Expected Graduation Year: 2024</p>
+      </div>
+      </div>
+
+      <div class="education-card">
+        <div class="left-side">
+            <h2>Bachelor's Degree</h2>
+            <p>2015-2022</p>
+          </div>
+          <div class="right-side">
+        <h2>Bachelor of Commerce</h2>
+        <p>York University</p>
+        <p>Graduation Year: 2022</p>
+      </div>
+      </div>
+      
+    
+      
+      <div class="education-card">
+         <div class="left-side">
+            <h2>OSSD</h2>
+            <p>2011-2015</p>
+            </div>
+            <div class="right-side">
+        <h2>Ontario Secondary School Diploma</h2>
+        <p>DeLaSalle College</p>
+        <p>Graduation Year: 2015</p>
+      </div>
+      </div>
+
+
+      <h1>Certification</h1>
+      <div class="certification-card">
+        <h2>Investment Funds in Canada Certificate</h2>
+        <p>Canadian Securities Institute</p>
+        <p>Certification Date: 2022</p>
+      </div>
+
+      <div class="certification-card">
+        <h2>Level 1 Tax Course Certificate</h2>
+        <p>H&R Block</p>
+        <p>Certification Date: 2019</p>
+      </div>
+
+    </section>
+
+    <section id="contact" class="container3">
+      <!-- Your Contact Form content here -->
+      <h2>Contact Me</h2>
+
+      <form id="contact-form" action="https://httpbin.org/post" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required list="cities" />
+        <datalist id="cities">
+          <!-- List of common Canadian cities -->
+          <option value="Toronto"></option>
+          <option value="Vancouver"></option>
+          <option value="Mississauga"></option>
+        </datalist>
+
+        <label for="postal-code">Postal Code:</label>
+        <input
+          type="text"
+          id="postal-code"
+          name="postal-code"
+          pattern="[A-Za-z]\d[A-Za-z](\s?\d[A-Za-z]\d)?"
+          placeholder="e.g. m7k 4g2 or m7k4g2"
+          required
+        />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="e.g. 1234567890">
+
+
+        <label>Regarding:</label>
+        <label><input type="radio" name="regarding" value="Question" required /> Question</label>
+        <label><input type="radio" name="regarding" value="Comment" required /> Comment</label>
+        <label><input type="radio" name="regarding" value="Hiring" required /> Hiring</label>
+
+        <div id="hourly-rate-input" style="display: none">
+          <label for="hourly-rate">Hourly Rate:</label>
+          <input type="number" id="hourly-rate" name="hourly-rate" />
+        </div>
+
+        
+        
+        <label id ="message-label" for="message">Message:</label>        
+        <textarea id="message" name="message" rows="5" required></textarea>
+    
+        
+        <button type="submit">Submit</button>
+
+    
+    </section>
+  </body>
+</html>
