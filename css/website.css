@@ -407,3 +407,26 @@ nav a:active {
     height: 70%;
   }
 }
+
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.scroll-to-top-btn:hover {
+  background-color: #007bff;
+}
+
+.scroll-to-top-label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 4px;
+}

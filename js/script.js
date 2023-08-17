@@ -33,3 +33,23 @@ scrollLinks.forEach((link) => {
     });
   });
 });
+
+
+
+// scrollToTop.js
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollToTopBtns = document.querySelectorAll(".scroll-to-top-btn");
+
+  scrollToTopBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      // Scroll to the top of the references section
+      const referencesSection = document.querySelector(".references");
+      if (referencesSection) {
+        referencesSection.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+      }
+    });
+  });
+});
