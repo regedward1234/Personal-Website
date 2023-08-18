@@ -349,7 +349,6 @@ nav a:active {
   .container3 {
     padding: 1rem;
     max-width: 100%;
-    max-width: 767px;
   }
 
   .top-section-content {
@@ -365,8 +364,8 @@ nav a:active {
   }
 
   .references {
-    width: 90%;
-    max-width: 90%; /* Allow navigation to take full width on mobile */
+    width: 100%;
+    max-width: 100%; /* Allow navigation to take full width on mobile */
   }
 
   .basic-info {
@@ -427,7 +426,8 @@ nav a:active {
   }
 
   .top-image {
-    height: 70%;
+    width: 60%; /* Adjust the width as needed */
+    max-height: auto; 
   }
 
   .scroll-to-top-btn {
