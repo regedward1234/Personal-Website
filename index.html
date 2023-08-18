@@ -18,6 +18,7 @@
 
   <body>
     <header>
+      <!--Reference class for top banner-->
       <section id="references" class="references">
         <nav>
           <ul>
@@ -28,6 +29,7 @@
         </nav>
       </section>
       
+      <!--Container for image and top section of information-->
       <div class="container">
       <img class="top-image" src="./files/profile.jpg" alt="Profile Image" />
 
@@ -36,9 +38,11 @@
           <h1>Reginald Edward</h1>
           <h3>Cyber Security Analyst</h3>
           <p>
+            <!--Download resume button-->
             <a href="./files/Reginald Edward Resume.pdf" download
               ><button class="download-button"><i class="fa fa-download"></i> Resume</button></a
             >
+            <!--Contact me button-->
             <a href="#contact"
               ><button class="contact-button"><i class="envelope"></i> Contact Me</button></a
             >
@@ -49,9 +53,9 @@
 
    
     </header>
-
+    
     <section id="about" class="container1">
-      <!-- Your About Me content here -->
+      <!--About Me content here -->
       <div class="left-section">
         <h1>About Me and Academic Honesty</h1>
 
@@ -80,6 +84,7 @@
         <b>Date: </b>August 12, 2023
         
       </div>
+      <!--Basic Information on right side of page-->
       <div class="right-section">
         <h1>Basic Information</h1>
         <div class="basic-info">
@@ -89,7 +94,7 @@
         </div>
         <div class="info-row">
         <h4>EMAIL:</h4>
-        <p>redward7@myseneca.ca</p>
+        <p class="email">redward7@myseneca.ca</p>
         </div>
         <div class="info-row">
         <h4>LANGUAGE:</h4>
@@ -121,7 +126,7 @@
       <div class="education-card">
       <div class="left-side">
         <h2>Advanced Diploma</h2>
-        <p>2023-</p>
+        <p>2023-2024</p>
       </div>
 
     
@@ -158,7 +163,7 @@
       </div>
       </div>
 
-
+      <!--Certification Card-->
       <h1>Certification</h1>
       <div class="certification-card">
         <h2>Investment Funds in Canada Certificate</h2>
@@ -220,9 +225,9 @@
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="e.g. 1234567890">
 
-
+        <!--Radio buttons-->
         <label>Regarding:</label>
-        <label><input type="radio" name="regarding" value="Question" required /> Question</label>
+        <label><input type="radio" name="regarding" value="Question" required checked /> Question</label>
         <label><input type="radio" name="regarding" value="Comment" required /> Comment</label>
         <label><input type="radio" name="regarding" value="Hiring" required /> Hiring</label>
 
