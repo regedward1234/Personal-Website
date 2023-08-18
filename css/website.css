@@ -72,8 +72,8 @@ nav a:active {
 
 /*Profile image*/
 .top-image {
-  width: 95%;
-  max-width: 95%;
+  width: 100%;
+  max-width: 100%;
   max-height: auto;
 }
 
@@ -239,7 +239,7 @@ nav a:active {
   text-align: center;
   margin: 0 auto; /* Center horizontally */
   line-height: 1.5;
-  margin-bottom: 60px;
+  margin-bottom: auto;
 }
 
 .download-button {
@@ -358,15 +358,15 @@ nav a:active {
   .container1,
   .container2,
   .container3 {
-    padding: .5rem;
+    padding: 0.5rem;
     max-width: 100%;
   }
 
   .container {
-    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure container takes full height */
   }
 
   .top-section-content {
@@ -436,11 +436,11 @@ nav a:active {
 
   .references {
     max-width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: auto;
   }
 
   .top-image {
-    width: 50%;
+    width: 65%;
     max-height: auto;
   }
 
