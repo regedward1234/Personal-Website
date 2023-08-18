@@ -227,6 +227,7 @@ nav a:active {
   margin: 0 auto; /* Center horizontally */
   line-height: 1.5;
   margin-bottom: 60px;
+  margin-top:0;
 }
 
 .download-button {
@@ -426,7 +427,7 @@ nav a:active {
   }
 
   .top-image {
-    width: 60%; /* Adjust the width as needed */
+    width: 60%; 
     max-height: auto; 
   }
 
